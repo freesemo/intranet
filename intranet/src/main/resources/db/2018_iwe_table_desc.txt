@@ -141,7 +141,7 @@ create table s_iwe_file_detail(
 	file_ext varchar(20) not null,
 	file_cont varchar(4000) null,
 	file_size int(8) default null,
-	constraint pk_file_detail primary key(file_id, file_sn)
+	constraint pk_file_detail primary key(file_id, file_sn)x
 );
 
 	
