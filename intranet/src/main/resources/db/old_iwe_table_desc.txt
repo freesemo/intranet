@@ -1,0 +1,49 @@
+[ member ]
+member_id 	20
+member_nm 	40
+member_auth 10
+dept_cd 	10
+dept_posi	40
+post_num	6
+addr 		100
+addr_remn	100
+phone_front	20
+phone_mid	20
+phone_end	20
+hand_fron
+hand_mid
+hand_end
+eml			80
+out_eml		80
+homepage	100
+use_yn		1
+rgst_er		20
+rgst_dt		14
+modi_er		20
+modi_dt		14
+eng_nm		50
+enter_dt	8
+retire_dt	8
+vacation 	1
+
+[bulletin]
+bull_seq	16
+board_id	10
+bull_no		int 8
+bull_step	int 8
+bull_lvl	int 8
+title 		200
+content		mediumtext
+bull_gb		2
+from_dt		14
+to_dt		14
+popup_yn	1
+read_cnt	int 9
+use_yn		1
+rgst_er		20
+rgst_dt		14
+rgst_nm		20
+passwd		20
+
+
+
