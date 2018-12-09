@@ -161,11 +161,6 @@
         	<artifactId>log4jdbc-remix</artifactId>
         	<version>0.2.7</version>
         </dependency>
-        <dependency>
-        	<groupId>slf4j-api</groupId>
-        	<artifactId>slf4jdbc-log4j12</artifactId>
-        	<version>1.7.5</version>
-        </dependency>
         
         <dependency>
             <groupId>commons-dbcp</groupId>
@@ -182,12 +177,7 @@
 		  <artifactId>mybatis-spring</artifactId>
 		  <version>1.2.2</version>
 		</dependency>
-		<dependency>
-		  <groupId>org.lazyluke</groupId>
-		  <artifactId>log4jdbc-remix</artifactId>
-		  <version>0.2.7</version>
-		</dependency>
-        
+		
         <dependency>
 		  <groupId>bouncycastle</groupId>
 		  <artifactId>bcprov-jdk16</artifactId>
@@ -252,9 +242,9 @@
 		  </exclusions>
 		</dependency>
 		<dependency>
-		  <groupId>lucy</groupId>
-		  <artifactId>xss</artifactId>
-		  <version>1.6.3</version>
+		<groupId>com.navercorp.lucy</groupId>
+		  	<artifactId>lucy-xss</artifactId>
+		  	<version>1.6.3</version>
 		</dependency>
 		
 		<dependency>
